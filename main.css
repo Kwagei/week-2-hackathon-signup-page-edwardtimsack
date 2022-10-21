@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: rgb(224, 99, 120);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.left{
+    width: 800px;
+    height: 500px;
+}
+.left h1{
+    text-align: left;
+    margin-top: 300px;
+    margin-left: 150px;
+    font-size: 60px;
+    color: white;
+}
+.left p{
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    font-size: 25px;
+    
+}
+.right{
+    width: 850px;
+}
+.buttin{
+    width: 260px;
+    height: 40px;
+    margin-top: 70px;
+}
+.buttin button{
+    padding: 25px;
+    width: 650px;
+    height: 60px;
+    border-radius: 9px;
+    color: white;
+    background-color: blueviolet;
+
+}
+.part{
+    background-color: white;
+    width: 570px;
+    height: 520px;
+    margin-top: 40px;
+    box-shadow: 10px;
+    padding: 40px;
+}
+.part input{
+    width: 480px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.bottin button{
+    padding: 30px;
+    width: 550px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(86, 211, 86);
+    
+}
+.below p{
+    margin-top: 10px;
+    margin-left: 25px;
+    color: gray;
+    
+}
+.below p a{
+    color: red;
+    text-decoration: solid;
+}
