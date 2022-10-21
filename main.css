@@ -3,7 +3,8 @@
     padding: 0;
 }
 main{
-    background-color: rgb(224, 99, 120);
+    background-image: url(./bg-image.png);
+    background-color: #ff7978;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -42,13 +43,13 @@ main{
     height: 60px;
     border-radius: 9px;
     color: white;
-    background-color: blueviolet;
+    background-color:#5e54a3;
 
 }
 .part{
     background-color: white;
     width: 570px;
-    height: 520px;
+    height: 500px;
     margin-top: 40px;
     box-shadow: 10px;
     padding: 40px;
@@ -69,7 +70,7 @@ main{
     margin-left: 10px;
     border-radius: 10px;
     color: white;
-    background-color: rgb(86, 211, 86);
+    background-color:#36cd8a;
     
 }
 .below p{
