@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 main{
     background-image: url(./bg-image.png);
@@ -15,68 +16,87 @@ main{
 }
 .left h1{
     text-align: left;
-    margin-top: 300px;
-    margin-left: 150px;
-    font-size: 60px;
+    margin-top: 250px;
+    margin-left: 170px;
+    font-size: 30px;
     color: white;
+    font-family: sans-serif;
 }
 .left p{
     text-align: left;
-    margin-left: 150px;
+    margin-left: 170px;
     margin-top: 10px;
     font-size: 20px;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
+    font-family: sans-serif;
+
     
 }
 .right{
     width: 850px;
+    margin-right: 80px;
+    
 }
 .buttin{
     width: 260px;
     height: 40px;
-    margin-top: 70px;
+    margin-top: 100px;
+    align-items: center;
+
 }
 .buttin button{
-    padding: 25px;
-    width: 650px;
-    height: 60px;
-    border-radius: 9px;
+    padding: 5 5 5 5px;
+    width: 470px;
+    height: 50px;
+    margin-left: 20px;
+
+    border-radius: 6px;
     color: white;
     background-color:#5e54a3;
+    align-items: center;
+    font-family: sans-serif;
+
 
 }
 .part{
     background-color: white;
-    width: 570px;
-    height: 500px;
-    margin-top: 40px;
+    width: 470px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 20px;
     box-shadow: 10px;
     padding: 40px;
+    gap: 50px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
 }
 .part input{
-    width: 480px;
+    width: 400px;
     margin-top: 10px;
-    margin-left: 10px;
-    padding: 30px;
-    border-radius: 10px;
-    font-size: 20px;
+    padding: 10px;
+    font-family: sans-serif;
 }
 .bottin button{
-    padding: 30px;
-    width: 550px;
-    height: 60px;
+    padding: 10px;
+    width: 400px;
+    height: 50px;
     margin-top: 10px;
-    margin-left: 10px;
-    border-radius: 10px;
+    border-radius: 6px;
     color: white;
     background-color:#36cd8a;
+    font-family: sans-serif;
+
     
 }
 .below p{
     margin-top: 10px;
     margin-left: 25px;
     color: gray;
+    font-size: 12px;
+    font-family: sans-serif;
+
     
 }
 .below p a{
